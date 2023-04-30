@@ -1,0 +1,7 @@
+{
+  "name": "My Project",
+  "id": "12345",
+  "url": "https://dev.azure.com/myorganization/myproject",
+  "state": "wellFormed",
+  "revision": 10
+}
