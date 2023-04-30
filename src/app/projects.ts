@@ -1,4 +1,4 @@
-export interface Project {
+/*export interface Project {
   
   name: string;
   id: number;
@@ -6,7 +6,8 @@ export interface Project {
   status: string;
   revision: number;
 }
-
+*/
+/*
 export const projects = [
   {
     name: 'Project Apple',
@@ -27,6 +28,17 @@ export const projects = [
     
   }
 ];
+
+*/
+
+interface Project {
+  name: string;
+  id: string;
+  url: string;
+  status: string;
+  revision: number;
+}
+
 
 
 /*
