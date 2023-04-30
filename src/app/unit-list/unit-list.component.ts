@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-unit-list',
@@ -12,7 +12,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class UnitListComponent implements OnInit {
   units: any[] = [
-    { name: 'Unit A', description: 'This is unit A' },
+    { name: 'Unit A', description: 'This i s unit A' },
     { name: 'Unit B', description: 'This is unit B' },
     { name: 'Unit C', description: 'This is unit C' },
   ];
