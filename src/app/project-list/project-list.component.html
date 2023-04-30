@@ -8,11 +8,29 @@ can be found in the LICENSE file at https://angular.io/license
 -->
 
 
-<div *ngFor="let project of projects">
+<!--div *ngFor="let project of projects">
   <h3>
     <a [title]="project.name + ' details'">
       {{ project.name }}
     </a>
 </h3>
 
-</div>
+</div-->
+
+<h1>Project List</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let project of projects">
+      <td>{{ project.name }}</td>
+      <td>{{ project.status }}</td>
+    </tr>
+  </tbody>
+</table>
+
