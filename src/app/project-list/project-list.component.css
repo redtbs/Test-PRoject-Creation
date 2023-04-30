@@ -5,3 +5,19 @@ Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
 can be found in the LICENSE file at https://angular.io/license
 */
+
+.project-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #f2f2f2;
+}
