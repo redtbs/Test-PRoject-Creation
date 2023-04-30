@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-entity-table',
   templateUrl: './entity-table.component.html',
-  styleUrls: ['../styles.css']
+  styleUrls: ['../../styles.css']
 })
 export class EntityTableComponent {
   entities = [

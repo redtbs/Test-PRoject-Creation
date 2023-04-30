@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-facility-list',
   templateUrl: './facility-list.component.html',
-  styleUrls: ['./facility-list.component.css']
+  styleUrls: ['../../styles.css']
 })
 export class FacilityListComponent {
     facilities = [

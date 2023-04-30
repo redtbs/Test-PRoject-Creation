@@ -5,8 +5,23 @@ can be found in the LICENSE file at https://angular.io/license
 -->
 
 
-<h1>Projects List</h1>
+<h1>Projects</h1>
 
-<ul>
-  <li *ngFor="let project of projects">{{ project.name }}</li>
-</ul>
+<table class=intel-table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let project of projects">
+      <td>{{ project.id }}</td>
+      <td>{{ project.name }}</td>
+      <td>{{ project.description }}</td>
+      <td>{{ project.status }}</td>
+    </tr>
+  </tbody>
+</table>

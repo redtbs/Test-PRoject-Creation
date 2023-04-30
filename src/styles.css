@@ -110,7 +110,7 @@ label {
 app-top-bar {
   width: 100%;
   height: 68px;
-  background-color: #1976d2;
+  background-color: #8e19d2;
   padding: 16px;
   display: flex;
   flex-direction: row;
@@ -146,7 +146,8 @@ app-top-bar h1 {
 .intel-table td {
   border: 1px solid #ddd;
   padding: 8px;
-  text-align: center;
+  text-align: left;
+  column-width: auto;
 }
 
 .intel-table th {
