@@ -1,28 +1,30 @@
 export interface Project {
-  id: number;
+  
   name: string;
-  price: number;
-  description: string;
+  id: number;
+  url: string;
+  status: string;
+  revision: number;
 }
 
 export const projects = [
   {
+    name: 'Project Apple',
     id: 1,
-    name: 'Phone XL',
-    price: 799,
-    description: 'A large phone with one of the best screens'
+    status: 'Approved',
+    
   },
   {
+    name: 'Project Banana',
     id: 2,
-    name: 'Phone Mini',
-    price: 699,
-    description: 'A great phone with one of the best cameras'
+    status: 'Deleted',
+    
   },
   {
+    name: 'Project Crisps',
     id: 3,
-    name: 'Phone Standard',
-    price: 299,
-    description: ''
+    status: 'Completed',
+    
   }
 ];
 

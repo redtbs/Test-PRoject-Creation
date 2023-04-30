@@ -22,7 +22,7 @@ interface Project {
   name: string;
   id: string;
   url: string;
-  state: string;
+  status: string;
   revision: number;
 }
 
@@ -51,7 +51,7 @@ loadProjects() {
         name: project.name,
         id: project.id,
         url: project.url,
-        state: project.state,
+        status: project.status,
         revision: project.revision
       }));
     },
