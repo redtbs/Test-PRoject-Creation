@@ -1,16 +1,4 @@
-/*import { Component } from '@angular/core';
 
-import { projects } from '../projects';
-
-
-export class ProjectListComponent {
-  projects = projects;
-
-  share() {
-    window.alert('The project has been shared!');
-  }
-}
-*/
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
@@ -39,21 +27,7 @@ constructor(private http: HttpClient) {
 }
 
 loadProjects() {
- /* const url = 'https://dev.azure.com/{organization}/{project}/_apis/projects?api-version=6.0';
-  const headers = { 'Authorization': 'Basic ' + btoa(':' + '{personal access token}') };*/
- /* this.http.get(url, { headers }).subscribe(
-    (data: any) => {
-      this.projects = data.value.map((project: any) => ({
-        name: project.name,
-        id: project.id,
-        url: project.url,
-        status: project.status,
-        revision: project.revision
-      }));
-    },
-
-    */
-
+ 
     this.http.get<Project[]>('assets/projects.json').subscribe(
       data => {
         this.projects = data;
