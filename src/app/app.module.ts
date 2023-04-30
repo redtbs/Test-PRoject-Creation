@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { EntityTableComponent } from './entity-table/entity-table.component';
 //import { ProjectListComponent } from './project-list/project-list.component';
-//import { FacilityListComponent } from './facility-list/facility-list.component';
+import { FacilityListComponent } from './facility-list/facility-list.component';
 //import { UnitListComponent } from './unit-list/unit-list.component';
 
 @NgModule({
@@ -23,7 +23,7 @@ import { EntityTableComponent } from './entity-table/entity-table.component';
     TopBarComponent,
     EntityTableComponent,
    // ProjectListComponent,
-   // FacilityListComponent,
+    FacilityListComponent,
   // UnitListComponent
   ],
   bootstrap: [

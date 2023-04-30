@@ -7,14 +7,9 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./facility-list.component.css']
 })
 export class FacilityListComponent {
-  facility-list: any[];
-
-  constructor(private http: HttpClient) {}
-
-  ngOnInit() {
-    this.http.get('assets/facilities.json').subscribe((data: any[]) => {
-      this.facility-list = data;
-    });
-  }
-
+    facilities = [
+    { id: 1, name: '80 Fen', description: 'London Office' },
+    { id: 2, name: 'Cubo', description: 'Sheffield Office' },
+    { id: 3, name: 'Airport City', description: 'Belgrade Office' }
+  ];
 }

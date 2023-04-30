@@ -97,6 +97,7 @@ label {
 .fancy-button {
   background-color: white;
   color: #1976d2;
+  border-radius: 10px;
 }
 
 .fancy-button i.material-icons {
@@ -136,7 +137,21 @@ app-top-bar h1 {
   border-radius: 2px;
   background-color: #EEEEEE;
 }
+.intel-table {
+  border-collapse: collapse;
+  width: 100%;
+}
 
+.intel-table th,
+.intel-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.intel-table th {
+  background-color: #f2f2f2;
+}
 
 /*
 Copyright Google LLC. All Rights Reserved.
