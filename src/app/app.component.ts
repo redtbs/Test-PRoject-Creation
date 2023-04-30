@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
+  template: '<app-entity-table></app-entity-table>',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

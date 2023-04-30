@@ -5,6 +5,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { EntityTableComponent } from './entity-table/entity-table.component';
 //import { ProjectListComponent } from './project-list/project-list.component';
 //import { FacilityListComponent } from './facility-list/facility-list.component';
 //import { UnitListComponent } from './unit-list/unit-list.component';
@@ -20,6 +21,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
   declarations: [
     AppComponent,
     TopBarComponent,
+    EntityTableComponent,
    // ProjectListComponent,
    // FacilityListComponent,
   // UnitListComponent

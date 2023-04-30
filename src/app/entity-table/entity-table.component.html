@@ -1,0 +1,19 @@
+<p>entity-table works!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let entity of entities">
+      <td>{{ entity.id }}</td>
+      <td>{{ entity.name }}</td>
+      <td>{{ entity.description }}</td>
+    </tr>
+  </tbody>
+</table>
+
