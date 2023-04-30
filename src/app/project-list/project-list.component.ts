@@ -2,14 +2,6 @@
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-interface Project {
-  name: string;
-  id: string;
-  url: string;
-  status: string;
-  revision: number;
-}
-
 
 @Component({
   selector: 'app-project-list',
@@ -18,22 +10,17 @@ interface Project {
 })
 export class ProjectListComponent {
  
-  projects: Project[];
+  projects: any[];
 
 
 constructor(private http: HttpClient) {
-  this.projects = [];
-  this.loadProjects();
-}
 
-loadProjects() {
- 
-    this.http.get<Project[]>('assets/projects.json').subscribe(
-      data => {
-        this.projects = data;
-      },
-    error => console.error(error)
-  );
+}
+ngOnInit() {
+  this.http.get<any[]>('/assets/projects.json').subscribe(data => {
+    this.projects = data;
+  });
+
 }
 }
 /*

@@ -1,17 +1,5 @@
 [  
   {    
-    "name": "Project 1",    
-    "id": "12345",    
-    "url": "https://dev.azure.com/myorganization/project1",    
-    "status": "wellFormed",   
-     "revision": 10  
-    },  
-    
-    {    
-      "name": "Project 2",    
-      "id": "67890",    
-      "url": "https://dev.azure.com/myorganization/project2",    
-      "status": "wellFormed",    
-      "revision": 5  
-      }
-    ]
+    "name": "Project 1"  },  
+  {    "name": "Project 2"  }, 
+     {    "name": "Project 3"  }]
