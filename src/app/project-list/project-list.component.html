@@ -1,0 +1,18 @@
+<h2>Projects</h2>
+
+
+<!-- 
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+-->
+
+
+<div *ngFor="let project of projects">
+  <h3>
+    <a [title]="project.name + ' details'">
+      {{ project.name }}
+    </a>
+</h3>
+
+</div>
